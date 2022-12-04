@@ -6,7 +6,8 @@ Pod::Spec.new do |spec|
   spec.summary = 'My useless framework'
   spec.homepage = 'https://github.com/multimediasuite/TestFrameworkWithoutAnySense'
   spec.author = 'Ihor Malovanyi'
-  spec.source = { :git => 'git://github.com/multimediasuite/TestFrameworkWithoutAnySense.git', :tag => '0.0.1' }
-  spec.source_files = 'Sources/*'
+  spec.platform = :ios, '16'
+  spec.source = { :git => 'https://github.com/multimediasuite/TestFrameworkWithoutAnySense.git', :tag => '0.0.1' }
+  spec.source_files = 'Sources/TestFrameworkWithoutAnySense/*'
 
 end
